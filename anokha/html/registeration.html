@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anokha Registeration</title>
+<link rel="icon" type="image/x-icon" href="C:\Users\dell\Desktop\Anokha 2023\favicon\Amrita_logo_favicon.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+function ff() {
+            w = document.getElementById("nam").value;
+            if (w.includes("1") ||
+               w.includes("2") ||
+               w.includes("3") ||
+               w.includes("4") ||
+               w.includes("5") ||
+               w.includes("6") ||
+               w.includes("7") ||
+               w.includes("8") ||
+               w.includes("9") ||
+               w.includes("0") ||
+               w.length < 4 ||
+               w.length > 21
+            ) {
+               alert("First name has Invalid characters/Range not 3 to 20");
+            }
+         }
+
+
+
+	function name() {
+            w = document.getElementById("nam").value;
+            if (
+				w.includes("1") ||
+               w.includes("2") ||
+               w.includes("3") ||
+               w.includes("4") ||
+               w.includes("5") ||
+               w.includes("6") ||
+               w.includes("7") ||
+               w.includes("8") ||
+               w.includes("9") ||
+               w.includes("0") ||
+               w.length < 4 ||
+               w.length > 21
+            ){
+               alert("First name has Invalid characters/Range not 3 to 20");
+            }
+         }
+
+
+
+
+		 function ff2() {
+         w = document.getElementById("nam2").value;
+         if (w.includes("1") ||
+            w.includes("2") ||
+            w.includes("3") ||
+            w.includes("4") ||
+            w.includes("5") ||
+            w.includes("6") ||
+            w.includes("7") ||
+            w.includes("8") ||
+            w.includes("9") ||
+            w.includes("0") ||
+            w.length < 4 ||
+            w.length > 21
+         ) {
+            alert("City name should have only text");
+         }
+      }
+	  function em() {
+         w = document.getElementById("emm").value;
+         if (w.includes("@") && w.includes(".com")) {
+            ok = 0
+         } else {
+            alert("Email should have Id with '@' and '.com'");
+         }
+      }
+	  function pwd1() {
+         w = document.getElementById("pw1").value;
+         if (w.length > 30 ||
+            w.length < 8) {
+            alert("Password range 8-30");
+         }
+      }
+	  function pwd2() {
+         w2 = document.getElementById("pw1").value;
+         w1 = document.getElementById("pw2").value;
+         if (w1 != w2) {
+            alert("Passwords does not Match!");
+         }
+      }
+	  function pp() {
+         w = document.getElementById("ppp").value;
+         if (w <= 999999999 || w >= 10000000000) {
+            alert("Phone number should be a valid 10 digit number");
+         }
+      }
+
+	  function yos() {
+         w = document.getElementById("yearr").value;
+         if (w < 5 || w > 0) {
+            alert("Year range - 1 to 4");
+         }
+      }
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  font-family:algerian;
+  text-align:left;
+  
+  color:#ffff1a;
+  padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+button {
+
+  border: none;
+  color: rgb(201, 7, 7);
+  padding: 15px 42px;
+  text-align: right ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 400px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.move1 {
+	margin-left: 10%;
+}
+
+</style>
+<!-- <header>
+<b><h1 style="color:#ffff1a;margin-left:350px";>Anokha Registeration</h1></b>
+</header> -->
+<body>
+	<img src="https://imgs.search.brave.com/EKmamelwOwcO16SNAtBStBRaoZNTw2m9sj-Mmlb7lg8/rs:fit:999:248:1/g:ce/aHR0cDovL2llb21z/b2NpZXR5Lm9yZy9p/bmRpYTIwMjEvd3At/Y29udGVudC91cGxv/YWRzLzIwMjEvMDEv/TG9nb19BTVJJVEEt/Mi5wbmc" style="width:200px;height:70px;"
+	<nav>
+	<!-- <a style="color:#ffff1a ; margin-left : 870px;padding-top:90px; position: absolute; top: 1%; left: 0%;" href="C:\Users\dell\Desktop\Anokha 2023\html\Login.html">LOGIN</a> -->
+
+	</nav>
+	<a style="color:#ffff1a ; margin-left : 93%;padding-top:29px; position: absolute; top: 1%; left: 0%;" href="C:\Users\dell\Desktop\Anokha 2023\html\Login.html">LOGIN</a>
+	<a style="color:#ffff1a ; margin-left : 87%;padding-top:29px; position: absolute; top: 1%; left: 0%;" href="C:\Users\dell\Desktop\Anokha 2023\index.html">HOME</a>
+	<b><h1 style="color:#ffff1a;margin-left :450px;margin-top: 30px;";>Anokha Registeration</h1></b>
+		<body style="background-repeat:no-repeat;background-image: url(https://imgs.search.brave.com/4e-qp9IhUjcCqHphUVNuPCZ3OJZT3qbSrOwLieDAMmE/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjQ1/NDYyOC5wbmc);background-size: cover;">
+		<br>
+		<br>
+		<br>
+		<br>
+		<form name="RegForm"  method="post">
+		<!--<img src="https://imgs.search.brave.com/Gb33oQ5n_Ou3A3e4nXhCiT6NPppLv2w1AsmusLpm5tY/rs:fit:500:220:1/g:ce/aHR0cHM6Ly9pLmdp/ZmVyLmNvbS9lbWJl/ZGRlZC9kb3dubG9h/ZC9KWU9qLmdpZg.gif" width="700" height="600" alt="alternatetext" align=right> -->
+		
+
+		<table style="width:100%">
+		  <tr>
+			<td><p class="center">Name</p></td>
+			<!-- <td><input type="text" id="nam" size="45" onchange="name()"></td> -->
+			<td><input id="nam" onchange="ff()" type="text" placeholder="Enter your first name" name="name" class="space" required=""></td>
+			</tr>
+		  <tr>
+			<td><p class="center">Address</p></td>
+			<td><input id="nam2" onchange="ff2()" type="text" placeholder="Enter your state name" name="name" class="space" required=""></td>
+			</tr>
+		<tr>
+			<td><p class="center">Email id</p></td>
+			<td><input id="emm" onchange="em()" type="text" placeholder="email@address.com" name="email" class="space" required=""></td>
+		</tr>
+		<tr>
+			<td><p class="center">password</p></td>
+			<td><input id="pw1" type="password" onchange="pwd1()" placeholder="Enter your password" name="name" class="space" required=""></td>
+		</tr>
+		<tr>
+			<td><p class="center">re-type password</p></td>
+			<td><input id="pw2" onchange="pwd2()" type="password" placeholder="Retype your password" name="name" class="space" required=""></td>
+		</tr>
+		<tr>
+			<td><p class ="center">phone number</p></td>
+			<td><input id="ppp" onchange="pp()" type="number" placeholder="Enter Mobile No." name="name" class="space" required=""></td>
+		</tr>
+		<tr>
+			<td><p class="center">
+				SELECT YOUR COURSE
+				<select type="text" value="" name="Subject" id="Subject">
+					<option>BTECH</option>
+					<option>BBA</option>
+					<option>BCA</option>
+					<option>B.COM</option>
+					<option>BA</option>
+				</select>
+			</p>
+		</td>
+		</tr>
+		  
+		</table>
+	
+<div class="move1">
+	<p > <button type="submit" onchange="testrun()">Register</button>
+	</p>	
+</div>		
+	
+
+<!-- <script>
+	function name() {
+            w = document.getElementById("nam").value;
+            if (
+				w.includes("1") ||
+               w.includes("2") ||
+               w.includes("3") ||
+               w.includes("4") ||
+               w.includes("5") ||
+               w.includes("6") ||
+               w.includes("7") ||
+               w.includes("8") ||
+               w.includes("9") ||
+               w.includes("0") ||
+               w.length < 4 ||
+               w.length > 21
+            ){
+               alert("First name has Invalid characters/Range not 3 to 20");
+            }
+         }
+
+
+
+
+		 function place() {
+         w = document.getElementById("nam2").value;
+         if (w.includes("1") ||
+            w.includes("2") ||
+            w.includes("3") ||
+            w.includes("4") ||
+            w.includes("5") ||
+            w.includes("6") ||
+            w.includes("7") ||
+            w.includes("8") ||
+            w.includes("9") ||
+            w.includes("0") ||
+            w.length < 4 ||
+            w.length > 21
+         ) {
+            alert("City name should have only text");
+         }
+      }
+	  function email() {
+         w = document.getElementById("emm").value;
+         if (w.includes("@") && w.includes(".com")) {
+            ok = 0
+         } else {
+            alert("Email should have Id with '@' and '.com'");
+         }
+      }
+	  function pwd1() {
+         w = document.getElementById("pw1").value;
+         if (w.length > 30 ||
+            w.length < 8) {
+            alert("Password range 8-30");
+         }
+      }
+	  function pwd2() {
+         w2 = document.getElementById("pw1").value;
+         w1 = document.getElementById("pw2").value;
+         if (w1 != w2) {
+            alert("Passwords does not Match!");
+         }
+      }
+	  function pp() {
+         w = document.getElementById("ppp").value;
+         if (w > 999999999 || w < 10000000000) {
+            alert("Phone number should be a valid 10 digit number");
+         }
+      }
+
+	  function yos() {
+         w = document.getElementById("yearr").value;
+         if (w < 5 || w > 0) {
+            alert("Year range - 1 to 4");
+         }
+      }
+		</script> -->
+	</form>
+	<center>
+		<footer>
+		  <!--<p style="color:#ffff1a";>&copy Anokha 2023-24</p>
+		  <p style="color:#ffff1a";>Copyrights : ACHYUTH</p>!-->
+		  <p class="copyright-text" align="center" style="font-family:Consolas;font-size:25px;color:#ffff1a;">Copyright © Achyuth , II B.Tech CSE (CYS) <br>Part of 20CYS202 - User Interface Design , Amrita Vishwa Vidyapeetham, Coimbatore </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+		</footer>  
+	</center>
+</body>
+</html>
