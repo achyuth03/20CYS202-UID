@@ -51,6 +51,9 @@ function ff() {
             ) {
                alert("First name has Invalid characters/Range not 3 to 20");
             }
+	else{
+	return true;
+	}
          }
 
 
@@ -73,6 +76,9 @@ function ff() {
             ){
                alert("First name has Invalid characters/Range not 3 to 20");
             }
+		else{
+			return true;
+		}
          }
 
 
@@ -95,11 +101,14 @@ function ff() {
          ) {
             alert("City name should have only text");
          }
+			 else{
+				 return true;
+			 }
       }
 	  function em() {
          w = document.getElementById("emm").value;
          if (w.includes("@") && w.includes(".com")) {
-            ok = 0
+            return true;
          } else {
             alert("Email should have Id with '@' and '.com'");
          }
@@ -110,6 +119,9 @@ function ff() {
             w.length < 8) {
             alert("Password range 8-30");
          }
+		  else{
+			  return true;
+		  }
       }
 	  function pwd2() {
          w2 = document.getElementById("pw1").value;
@@ -123,14 +135,12 @@ function ff() {
          if (w <= 999999999 || w >= 10000000000) {
             alert("Phone number should be a valid 10 digit number");
          }
+		  else{
+			  return true;
+		  }
       }
 
-	  function yos() {
-         w = document.getElementById("yearr").value;
-         if (w < 5 || w > 0) {
-            alert("Year range - 1 to 4");
-         }
-      }
+	  
 	function testrun(){
     // window.open("./login.html")
     if (ff()  && name() && ff2() && em() && pwd1() && pwd2() &&pp()){
@@ -264,7 +274,7 @@ button {
 		</table>
 	
 <div class="move1">
-	<p > <button type="submit" onchange="testrun()">Register</button>
+	<p > <button onclick="testrun()">Register</button>
 	</p>	
 </div>		
 	
